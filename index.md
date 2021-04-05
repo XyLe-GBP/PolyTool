@@ -1,37 +1,54 @@
-## Welcome to GitHub Pages
+# PolyTool
+---
+ITU G.722.1 Annex C (Polycom Siren14) Converter for IDOLM@STER.  
+This tool is a multi-functional version of unkTool.exe.  
 
-You can use the [editor on GitHub](https://github.com/XyLe-GBP/PolyTool/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+---
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## What is this?
+---
+This application decodes an audio file encoded in ITU G.722.1 Annex C (Polycom Siren14) format into Wave (Microsoft) format.  
+This application supports the user interface function.  
 
-### Markdown
+Decoding of some RAW format files is also possible.  
+`(e.g. *.nub2, *.nus3bank, *.bnsf)`  
+However, encoding of these formats is currently not supported.  
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+The application currently supports only Japanese and English languages.  
 
-```markdown
-Syntax highlighted code block
+---
 
-# Header 1
-## Header 2
-### Header 3
+## Usage
+---
+This application uses Perl.  
+You will need to install ActivePerl or Strawberry Perl.  
+If you do not install it, you will not be able to run this application.  
 
-- Bulleted
-- List
+[ActivePerl](https://www.activestate.com/products/perl/downloads/)
 
-1. Numbered
-2. List
+[Strawberry Perl](https://strawberryperl.com/)
 
-**Bold** and _Italic_ and `Code` text
+.NET Framework 4.7.2 is used for this application.  
+You will need to install the following packages on your PC.  
 
-[Link](url) and ![Image](src)
-```
+[Microsoft .NET Framework 4.7.2 Web installer](http://go.microsoft.com/fwlink/?linkid=863262)
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+[Microsoft .NET Framework 4.7.2 Offline installer](http://go.microsoft.com/fwlink/?linkid=863265)
 
-### Jekyll Themes
+* Supported decode formats
+  * `Polycom Siren14 (*.unk, *.s14, *.sss, *.bnsf)`
+  * `Container (*.nub2, *.nus3bank)`
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/XyLe-GBP/PolyTool/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+* Supported encode formats
+  * `Polycom Siren14 (*.unk, *.s14, *.sss)`
 
-### Support or Contact
+`UNK: IDOLM@STER SP`  
+`S14: IDOLM@STER DS`  
+`SSS: IDOLM@STER DS`  
+`BNSF: IDOLM@STER 2, OFA, PLATINUM STARS, STELLA STAGE`  
+`NUB2: IDOLM@STER 2`  
+`NUS3BANK: IDOLM@STER OFA, PLATINUM STARS, STELLA STAGE`  
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## About Licensing
+---
+This tool is released under the MIT license.
