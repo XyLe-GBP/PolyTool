@@ -42,7 +42,7 @@ You will need to install the following packages on your PC.
   * Polycom Siren14 (*.unk, *.s14, *.sss, *.bnsf)
   * Container (*.nub2, *.nus3bank)
 
-* Supporetd encode formats
+* Supportd encode formats
   * Polycom Siren14 (*.unk, *.s14, *.sss)
 
 > UNK: IDOLM@STER SP
