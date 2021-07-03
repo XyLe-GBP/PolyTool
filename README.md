@@ -1,4 +1,5 @@
 # PolyTool
+![Downloads](https://img.shields.io/github/downloads/XyLe-GBP/PolyTool/total.svg)  
 ---
 ITU G.722.1 Annex C (Polycom Siren14) Converter for IDOLM@STER.  
 This tool is a multi-functional version of unkTool.exe.  
